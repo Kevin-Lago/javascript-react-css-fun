@@ -2,6 +2,17 @@
   --background-color: #060608;
   --text-color: #FAFAFA;
   --primary-color: 200 120 0;
+  --call-to-action: 0 0 255;
+}
+
+button {
+  cursor: pointer;
+  background-color: none;
+  background: none;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -15,5 +26,11 @@ body {
 .flex-center {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.flex-center-start {
+  display: flex;
+  justify-content: start;
   align-items: center;
 }
