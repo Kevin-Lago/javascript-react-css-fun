@@ -4,7 +4,7 @@ import SciFiScreen from './components/sci_fi_screen/SciFiScreen';
 function App() {
   return (
     <div className="App flex-center">
-      <SciFiScreen title="Glitch" />
+      <SciFiScreen title="GLITCH" screenStack={6} />
     </div>
   );
 }
