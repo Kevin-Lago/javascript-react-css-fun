@@ -1,8 +1,14 @@
 :root {
   --background-color: #060608;
   --text-color: #FAFAFA;
-  --primary-color: 200 120 0;
+  --primary-color: 200 100 0;
   --call-to-action: 0 0 255;
+  --image-hue-rotate: 20deg;
+  --black: #060608;
+}
+
+a {
+  z-index: 100;
 }
 
 button {
@@ -15,18 +21,28 @@ button {
   width: 100%;
 }
 
+html,
 body {
-  background: var(--background-color);
+  background: transparent;
+  overflow: hidden;
+  /* font-family: roboto; */
+  /* background-color: var(--background-color); */
 }
 
 .App {
   height: 100vh;
 }
 
-.flex-center {
+.flex-center-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-start-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .flex-center-start {
